@@ -1,13 +1,15 @@
-import getType from "./getType";
-console.log(typeof 'Hello world')
-console.log(typeof 123)
-console.log(typeof true)
-console.log(typeof undefined)
-console.log(typeof null)
-console.log(typeof {})
-console.log(typeof [])
+// 산술 연살자 (arithmetic operator)
 
+console.log(1 + 2)
+console.log(5 - 7)
+console.log(3 * 4)
+console.log(10 / 2)
+console.log(7 % 5)
 
+// 할당 연산자 (assignment operator)
 
-console.log(getType(123))
-console.log(getType(false))
+let a = 2
+// a = a + 1
+a += 1
+
+console.log(a)
