@@ -1,15 +1,15 @@
-// 산술 연살자 (arithmetic operator)
+import random from './getRandom'
 
-console.log(1 + 2)
-console.log(5 - 7)
-console.log(3 * 4)
-console.log(10 / 2)
-console.log(7 % 5)
+// 조건문 (If statement)
 
-// 할당 연산자 (assignment operator)
+console.log(random())
 
-let a = 2
-// a = a + 1
-a += 1
+const a = random()
 
-console.log(a)
+if ( a === 0 ) {
+    console.log('a is 0')
+} else if ( a === 2) {
+    console.log('a is 2')
+} else {
+    console.log('rest...')
+}
