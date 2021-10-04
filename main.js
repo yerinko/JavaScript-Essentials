@@ -51,3 +51,12 @@ function scope() {
     }
 }
 scope()
+
+// 형 변환 (Type conversion)
+// 형은 자료형을 이야기합니다.
+
+const a = 1
+const b = '1'
+
+console.log( a == b ) // true ( 동등 연산자는 추천하지 않습니다. )
+console.log( a === b ) // false
