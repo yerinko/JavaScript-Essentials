@@ -60,3 +60,10 @@ const b = '1'
 
 console.log( a == b ) // true ( 동등 연산자는 추천하지 않습니다. )
 console.log( a === b ) // false
+
+// 함수 복습
+function sum(x,y) {
+    console.log(x + y)
+}
+
+sum(1,3)
