@@ -67,3 +67,14 @@ function sum(x,y) {
 }
 
 sum(1,3)
+
+// 화살표 함수 ( 축약형으로 함수를 최소화 가능하다. )
+// () => {} vs function () {}
+
+const double = function (x, y) {
+    return x * 2
+}
+console.log('double: ', double(7))
+
+const doubleArrow = x => x * 2
+console.log('doubleArrow', doubleArrow(7))
