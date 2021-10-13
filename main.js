@@ -108,4 +108,3 @@ double()
 function double() {
     console.log(a * 2)
 }
-//
