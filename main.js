@@ -132,3 +132,8 @@ const h1El2 = document.querySelector('h1')
 h1El2.addEventListener('click', () => {
     clearInterval(setTimer)
 })
+
+// 콜백 (Callback)
+// 함수의 인수로 사용되는 함수
+
+// setTimeout(함수, 시간)
